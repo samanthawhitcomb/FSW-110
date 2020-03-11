@@ -1,0 +1,15 @@
+.add{
+    padding: 5px;
+    margin: 20px;
+    color: red;
+}
+.subtract{
+    padding: 5px;
+    margin: 20px;
+    color:blue;
+}
+.multiply{
+    padding: 5px;
+    margin: 20px;
+    color:green;
+}
