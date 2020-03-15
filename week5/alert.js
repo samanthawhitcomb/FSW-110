@@ -12,10 +12,13 @@ button.addEventListener("click",(e) => {
     const fullName = (firstName.value + lastName.value + age1.value)
     const h1 = document.createElement('h1')
     h1.textContent = fullName
-    const form1 = document.getElementsByClassName("name")[0]
-    form1.append(h1) 
+    // const form1 = document.getElementsByClassName("name")[0]
+    // form1.append(h1) 
 
-    alert("Your new Username: " + fullName)
+    alert("Your new Username: " + fullName);
+    firstName.value = "";
+    lastName.value = "";
+    age1.value = "";
     
 }  )
 
